@@ -1,0 +1,17 @@
+
+name: macOS Learning
+
+on:
+  workflow_dispatch:
+
+jobs:
+  learn:
+    runs-on: macos-15
+    steps:
+      - name: Check macOS
+        run: |
+          sw_vers
+          uname -a
+          whoami
+          system_profiler SPSoftwareDataType
+
