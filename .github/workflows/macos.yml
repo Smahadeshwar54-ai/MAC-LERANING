@@ -15,3 +15,11 @@ jobs:
           whoami
           system_profiler SPSoftwareDataType
 
+echo "Welcome to macOS"
+pwd
+ls -la
+whoami
+date
+uname -a
+df -h
+sw_vers
